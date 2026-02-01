@@ -1,0 +1,339 @@
+/* ===============================
+   THEME VARIABLES (LOCKED)
+   =============================== */
+:root {
+  --bg-page: #1e1e1e;
+  --bg-panel: #2a2a2a;
+  --bg-panel-soft: rgba(55, 55, 55, 0.7);
+
+  --text-primary: #ff6b6b;
+  --text-normal: #e5e5e5;
+  --text-muted: #b5b5b5;
+
+  --accent-primary: #ff6b6b;
+  --accent-rating: #ffd166;
+
+  --status-confirmed: rgba(125, 255, 178, 0.18);
+  --status-pending: rgba(255, 209, 102, 0.18);
+  --status-cancelled: rgba(255, 107, 107, 0.18);
+
+  --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+/* ===============================
+   PAGE
+   =============================== */
+.bookings-page {
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: var(--text-normal);
+}
+
+/* ===============================
+   HEADER
+   =============================== */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 16px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 28px;
+  color: var(--text-primary);
+}
+
+.page-subtitle {
+  margin: 6px 0 0;
+  color: var(--text-muted);
+}
+
+/* ===============================
+   SUMMARY CARD
+   =============================== */
+.summary-card {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 14px;
+  background: var(--bg-panel);
+  border: 1px solid rgba(255,255,255,0.1);
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-soft);
+}
+
+.summary-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.summary-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.summary-restaurant {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent-rating);
+}
+
+.summary-meta {
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.summary-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.pill {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: var(--bg-panel-soft);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* ===============================
+   SUMMARY STATS
+   =============================== */
+.summary-right {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.summary-stat {
+  background: var(--bg-panel-soft);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 10px 12px;
+  min-width: 120px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 4px;
+  color: var(--accent-primary);
+}
+
+/* ===============================
+   EMPTY STATE
+   =============================== */
+.empty-state {
+  margin-top: 18px;
+  padding: 22px;
+  border-radius: 14px;
+  border: 1px dashed rgba(255,255,255,0.2);
+  text-align: center;
+  background: var(--bg-panel-soft);
+}
+
+.empty-title {
+  font-weight: 800;
+  font-size: 16px;
+  color: var(--accent-rating);
+}
+
+.empty-text {
+  margin-top: 6px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* ===============================
+   GRID
+   =============================== */
+.booking-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+@media (max-width: 900px) {
+  .booking-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===============================
+   BOOKING CARD
+   =============================== */
+.booking-card-v2 {
+  background: var(--bg-panel);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: var(--shadow-soft);
+}
+
+/* ===============================
+   CARD TOP
+   =============================== */
+.booking-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.customer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  background: rgba(255,107,107,0.2);
+  border: 1px solid rgba(255,107,107,0.4);
+}
+
+.customer-name {
+  font-weight: 800;
+}
+
+.customer-phone {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ===============================
+   TAGS / BADGES
+   =============================== */
+.booking-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.badge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: var(--bg-panel-soft);
+}
+
+.badge--confirmed {
+  background: var(--status-confirmed);
+}
+
+.badge--cancelled {
+  background: var(--status-cancelled);
+}
+
+.badge--pending {
+  background: var(--status-pending);
+}
+
+/* ===============================
+   META
+   =============================== */
+.booking-meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.meta-item {
+  font-size: 13px;
+  background: var(--bg-panel-soft);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+/* ===============================
+   MENU
+   =============================== */
+.menu-block {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.menu-title {
+  font-weight: 800;
+  font-size: 13px;
+  margin-bottom: 8px;
+  color: var(--accent-rating);
+}
+
+.menu-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.menu-pill {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,107,107,0.15);
+  border: 1px solid rgba(255,107,107,0.4);
+}
+
+/* ===============================
+   ACTIONS
+   =============================== */
+.booking-actions-v2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.btn--primary {
+  background: linear-gradient(
+    135deg,
+    var(--accent-primary),
+    var(--accent-rating)
+  );
+  color: #1a0f0f;
+}
+
+.btn--danger {
+  background: rgba(255,107,107,0.9);
+  color: #1a0f0f;
+}
+
+.btn--disabled {
+  background: rgba(255,255,255,0.15);
+  color: var(--text-muted);
+  cursor: not-allowed;
+}
