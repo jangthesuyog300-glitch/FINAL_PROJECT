@@ -1,0 +1,140 @@
+.demo-payment-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    backdrop-filter: blur(4px);
+}
+
+.demo-payment-modal {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    animation: modalScale 0.3s ease-out;
+}
+
+@keyframes modalScale {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.demo-payment-modal h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.amount-pay {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+
+.method-selector {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.method-selector button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 600;
+}
+
+.method-selector button.active {
+    background: #007bff;
+    color: #fff;
+}
+
+.f-group {
+    margin-bottom: 15px;
+}
+
+.f-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #444;
+}
+
+.f-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.f-row {
+    display: flex;
+    gap: 15px;
+}
+
+.err {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-top: 4px;
+}
+
+.pay-now-btn {
+    width: 100%;
+    padding: 15px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+.pay-now-btn:hover {
+    background: #218838;
+}
+
+.secure-text {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 15px;
+}

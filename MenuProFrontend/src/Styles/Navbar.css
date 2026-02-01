@@ -1,0 +1,244 @@
+/* ================================
+   THEME VARIABLES (LOCKED)
+================================ */
+:root {
+  --bg-page: #1e1e1e;
+  --bg-panel: #2a2a2a;
+  --bg-panel-soft: rgba(55, 55, 55, 0.7);
+
+  --text-primary: #ff6b6b;
+  --text-normal: #e5e5e5;
+  --text-muted: #b5b5b5;
+
+  --accent-primary: #ff6b6b;
+  --accent-rating: #ffd166;
+
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.45);
+  --shadow-glow: 0 0 18px rgba(255, 178, 71, 0.35);
+}
+
+/* ================================
+   NAVBAR BASE
+================================ */
+.navbar {
+  background-color: var(--bg-panel) !important;
+  border-bottom: 2px solid rgba(255, 107, 107, 0.6);
+  box-shadow: var(--shadow-soft);
+}
+
+/* ================================
+   BRAND
+================================ */
+.navbar-brand {
+  color: var(--text-primary) !important;
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+  color: var(--accent-rating) !important;
+}
+
+/* ================================
+   NAV LINKS
+================================ */
+.navbar-nav .nav-link {
+  color: var(--text-normal) !important;
+  margin: 0 8px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* Hover underline animation */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: var(--accent-primary);
+  transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--accent-primary) !important;
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+  color: var(--accent-primary) !important;
+  font-weight: 600;
+}
+
+/* ================================
+   DROPDOWN
+================================ */
+.dropdown-menu {
+  background-color: var(--bg-panel);
+  border: 1px solid rgba(255, 107, 107, 0.6);
+  box-shadow: var(--shadow-soft);
+}
+
+.dropdown-item {
+  color: var(--text-normal);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: var(--accent-primary);
+  color: #1a0f0f;
+}
+
+/* Divider */
+.dropdown-divider {
+  border-color: rgba(255, 107, 107, 0.4);
+}
+
+/* ================================
+   SEARCH BAR
+================================ */
+.form-control {
+  background-color: var(--bg-page);
+  color: var(--text-normal);
+  border: 1px solid rgba(255, 107, 107, 0.5);
+}
+
+.form-control::placeholder {
+  color: var(--text-muted);
+}
+
+.form-control:focus {
+  background-color: var(--bg-page);
+  color: var(--text-normal);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 2px rgba(255, 107, 107, 0.25);
+}
+
+/* Search Button */
+.btn-outline-success {
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--accent-primary);
+  color: #1a0f0f;
+  box-shadow: var(--shadow-glow);
+}
+
+/* ================================
+   TOGGLER (MOBILE)
+================================ */
+.navbar-toggler {
+  border: 1px solid rgba(255, 107, 107, 0.6);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* ================================
+   DISABLED LINK
+================================ */
+.nav-link.disabled {
+  color: var(--text-muted) !important;
+}
+
+/* ================================
+   AUTH BUTTON – TRUE 3D FLIP
+================================ */
+.auth-btn {
+  position: relative;
+  width: 110px;
+  height: 38px;
+  color: var(--text-primary);
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+
+  perspective: 1000px;
+}
+
+/* INNER WRAPPER */
+.auth-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+/* FLIP */
+.auth-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+/* BOTH FACES */
+.auth-face {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 14px;
+  color: #1a0f0f;
+
+  backface-visibility: hidden;
+  border-radius: 6px;
+}
+
+/* FRONT (LOGIN) */
+.auth-front {
+  background-color: var(--accent-primary);
+  transform: rotateY(0deg);
+}
+
+/* BACK (REGISTER) */
+.auth-back {
+  background-color: var(--accent-rating);
+  transform: rotateY(180deg);
+}
+
+/* ================================
+   MOBILE ADJUSTMENTS
+================================ */
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .auth-btn {
+    width: 90px;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .navbar-nav {
+    padding: 10px 0;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 5px 0;
+  }
+
+  .navbar-collapse {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+  }
+}

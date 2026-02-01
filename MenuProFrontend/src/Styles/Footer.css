@@ -1,0 +1,116 @@
+/* ===============================
+   THEME VARIABLES (LOCKED)
+   =============================== */
+:root {
+  --bg-page: #1e1e1e;
+  --bg-panel: #2a2a2a;
+  --bg-panel-soft: rgba(55, 55, 55, 0.7);
+
+  --text-primary: #ff6b6b;
+  --text-normal: #e5e5e5;
+  --text-muted: #b5b5b5;
+
+  --accent-primary: #ff6b6b;
+  --accent-rating: #ffd166;
+
+  --shadow-soft: 0 -4px 20px rgba(0, 0, 0, 0.45);
+  --shadow-glow: 0 0 18px rgba(255, 178, 71, 0.35);
+}
+
+/* ===============================
+   FOOTER BASE
+   =============================== */
+.footer {
+  background-color: var(--bg-panel);
+  color: var(--text-normal);
+  border-top: 2px solid rgba(255, 107, 107, 0.6);
+  box-shadow: var(--shadow-soft);
+
+  margin-top: 0;
+}
+
+/* ===============================
+   FOOTER CONTAINER
+   =============================== */
+padding: 25px 50px;
+flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .footer-section {
+    max-width: 100%;
+  }
+}
+
+/* ===============================
+   FOOTER SECTIONS
+   =============================== */
+.footer-section {
+  max-width: 280px;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.footer-text {
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* ===============================
+   FOOTER LINKS
+   =============================== */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  color: var(--text-normal);
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.footer-links li:hover {
+  color: var(--accent-primary);
+  padding-left: 4px;
+}
+
+.register-link:hover {
+  color: var(--accent-rating);
+}
+
+@media (max-width: 480px) {
+  .login-modal {
+    width: 90%;
+    min-height: auto;
+    padding: 25px 20px;
+  }
+}
+
+/* ===============================
+   FOOTER BOTTOM
+   =============================== */
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid rgba(255, 107, 107, 0.4);
+  font-size: 12px;
+  color: var(--text-muted);
+}

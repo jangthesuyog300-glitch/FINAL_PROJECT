@@ -1,0 +1,16 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\restaurants\a78d1e67-4e4a-45df-9a52-671b825ae591.jpg
+wwwroot\images\restaurants\cafe-delight.jpg
+wwwroot\images\restaurants\cafe.jpg
+wwwroot\images\restaurants\green.jpg
+wwwroot\images\restaurants\ocean.jpg
+wwwroot\images\restaurants\spice.avif
+wwwroot\images\restaurants\spice.jpg
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\LICENSE.txt
