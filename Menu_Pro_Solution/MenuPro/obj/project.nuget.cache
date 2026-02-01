@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F68r/Jv0kNc=",
+  "dgSpecHash": "KzzHtkZGCrU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\VICTUS\\Desktop\\new\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
+  "projectFilePath": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VICTUS\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\VICTUS\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -99,9 +99,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Razorpay 3.1.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\VICTUS\\Desktop\\new\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
+      "projectPath": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\VICTUS\\Desktop\\new\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
+      "filePath": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
       "libraryId": "Razorpay",
       "targetGraphs": [
         "net8.0"

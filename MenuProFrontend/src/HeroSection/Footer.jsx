@@ -15,7 +15,7 @@ export default function Footer() {
             </p>
           </div>
   
-          {/* QUICK LINKS */}
+          {/* QUICK LINKS
           <div className="footer-section">
             <h4 className="footer-title">Quick Links</h4>
             <ul className="footer-links">
@@ -24,7 +24,7 @@ export default function Footer() {
               <li>Orders</li>
               <li>Reservations</li>
             </ul>
-          </div>
+          </div> */}
   
           {/* CONTACT */}
           <div className="footer-section">

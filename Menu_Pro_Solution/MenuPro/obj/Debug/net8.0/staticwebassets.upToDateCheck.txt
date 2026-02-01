@@ -1,5 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\foods\a81b3b93-11ef-4816-be7d-9cc8a5d54eac.jpg
+wwwroot\images\foods\b370d66a-d8eb-49b4-9d34-d1f833975c4e.jpg
 wwwroot\images\restaurants\a78d1e67-4e4a-45df-9a52-671b825ae591.jpg
 wwwroot\images\restaurants\cafe-delight.jpg
 wwwroot\images\restaurants\cafe.jpg

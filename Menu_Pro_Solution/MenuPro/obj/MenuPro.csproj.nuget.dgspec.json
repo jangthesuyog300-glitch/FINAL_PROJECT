@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VICTUS\\Desktop\\new\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj": {}
+    "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VICTUS\\Desktop\\new\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj": {
+    "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VICTUS\\Desktop\\new\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
+        "projectUniqueName": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
         "projectName": "MenuPro",
-        "projectPath": "C:\\Users\\VICTUS\\Desktop\\new\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
+        "projectPath": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
         "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VICTUS\\Desktop\\new\\Menu_Pro_Solution\\MenuPro\\obj\\",
+        "outputPath": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
