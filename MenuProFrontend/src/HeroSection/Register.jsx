@@ -93,11 +93,11 @@ export default function RegisterModal({ isOpen, onClose, onLoginClick }) {
           </div>
           <input name="password" type="password" placeholder="Password" onChange={handleChange} required />
 
-          {/* <select name="role" value={formData.role} onChange={handleChange}>
+          <select name="role" value={formData.role} onChange={handleChange}>
             <option value="User">User</option>
             <option value="Manager">Manager</option>
             <option value="Admin">Admin</option>
-          </select> */}
+          </select>
 
           {formData.role === "Manager" && (
             <input

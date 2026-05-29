@@ -1,9 +1,10 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import "../../Styles/manager/FoodMenu.css";
 import { useNavigate } from "react-router-dom";
+import { API_ORIGIN } from "../../services/axiosInstance";
 
 export default function FoodMenu() {
-  const API_BASE = useMemo(() => "https://localhost:44315", []); // keep "" if same domain
+  const API_BASE = API_ORIGIN;
   const navigate = useNavigate();
 
   // ---------- Helpers ----------
@@ -87,7 +88,7 @@ export default function FoodMenu() {
     available: item.isAvailable ?? false,
 
     // UI-only fields
-    category: "",
+    category: item.category ?? "General",
     ingredients: "",
     calories: "",
     carbs: "",
@@ -104,6 +105,7 @@ export default function FoodMenu() {
     const fd = new FormData();
     fd.append("restaurantId", uiItem.restaurantId.toString());
     fd.append("foodName", (uiItem.name || "").trim());
+    fd.append("category", (uiItem.category || "General").trim());
     fd.append("price", uiItem.price.toString());
     fd.append("isAvailable", uiItem.available.toString());
     if (selectedFile) fd.append("image", selectedFile);
@@ -114,6 +116,7 @@ export default function FoodMenu() {
   const mapToApiUpdate = (uiItem) => {
     const fd = new FormData();
     fd.append("foodName", (uiItem.name || "").trim());
+    fd.append("category", (uiItem.category || "General").trim());
     fd.append("price", uiItem.price.toString());
     fd.append("isAvailable", uiItem.available.toString());
     if (selectedFile) fd.append("image", selectedFile);
@@ -131,9 +134,15 @@ export default function FoodMenu() {
 
     setLoading(true);
     try {
+      const token = localStorage.getItem("token");
+      const headers = {
+        "Content-Type": "application/json"
+      };
+      if (token) headers["Authorization"] = `Bearer ${token}`;
+
       const res = await fetch(`${API_BASE}/api/fooditems/restaurant/${rid}`, {
         method: "GET",
-        headers: { "Content-Type": "application/json" },
+        headers: headers,
       });
 
       if (!res.ok) {
@@ -209,11 +218,15 @@ export default function FoodMenu() {
     try {
       if (editId) {
         const payload = mapToApiUpdate(form);
+        const token = localStorage.getItem("token");
+        const headers = {};
+        if (token) headers["Authorization"] = `Bearer ${token}`;
 
         console.log("PUT payload:", payload);
 
         const res = await fetch(`${API_BASE}/api/fooditems/${editId}`, {
           method: "PUT",
+          headers: headers,
           body: payload,
         });
 
@@ -226,12 +239,16 @@ export default function FoodMenu() {
         resetForm();
       } else {
         const payload = mapToApiCreate({ ...form, restaurantId });
+        const token = localStorage.getItem("token");
+        const headers = {};
+        if (token) headers["Authorization"] = `Bearer ${token}`;
 
         console.log("POST restaurantId(localStorage):", localStorage.getItem("restaurantId"));
         console.log("POST payload:", payload);
 
         const res = await fetch(`${API_BASE}/api/fooditems`, {
           method: "POST",
+          headers: headers,
           body: payload,
         });
 
@@ -254,8 +271,13 @@ export default function FoodMenu() {
     if (!window.confirm("Delete this food item?")) return;
 
     try {
+      const token = localStorage.getItem("token");
+      const headers = {};
+      if (token) headers["Authorization"] = `Bearer ${token}`;
+
       const res = await fetch(`${API_BASE}/api/fooditems/${id}`, {
         method: "DELETE",
+        headers: headers,
       });
 
       if (!res.ok) {

@@ -355,10 +355,10 @@ C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\stati
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\MenuPro.csproj.Up2Date
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\MenuPro.dll
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\refint\MenuPro.dll
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\MenuPro.pdb
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\MenuPro.genruntimeconfig.cache
 C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\ref\MenuPro.dll
+C:\Users\VICTUS\Desktop\git New\Menu_Pro_Solution\MenuPro\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

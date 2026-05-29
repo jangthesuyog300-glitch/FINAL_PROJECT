@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Hotel.Models;
 using MenuPro.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Hotel.Controllers
 {
@@ -59,9 +60,11 @@ namespace Hotel.Controllers
         }
 
         // ✅ POST: api/fooditems
+        [Authorize(Roles = "Manager,Admin")]
         [HttpPost]
-        public async Task<ActionResult<Models.FoodItem>> CreateFoodItem([FromForm] FoodItemCreateDto dto, IFormFile? image)
+        public async Task<ActionResult<Models.FoodItem>> CreateFoodItem([FromForm] FoodItemCreateDto dto)
         {
+            var image = dto.Image;
             if (string.IsNullOrWhiteSpace(dto.FoodName))
                 return BadRequest("FoodName is required.");
 
@@ -98,6 +101,7 @@ namespace Hotel.Controllers
             {
                 RestaurantId = dto.RestaurantId,
                 FoodName = dto.FoodName.Trim(),
+                Category = dto.Category?.Trim() ?? "General",
                 Price = dto.Price,
                 IsAvailable = dto.IsAvailable,
                 ImageUrl = imageUrl
@@ -111,9 +115,11 @@ namespace Hotel.Controllers
         }
 
         // ✅ PUT: api/fooditems/5
+        [Authorize(Roles = "Manager,Admin")]
         [HttpPut("{id:int}")]
-        public async Task<IActionResult> UpdateFoodItem(int id, [FromForm] FoodItemUpdateDto dto, IFormFile? image)
+        public async Task<IActionResult> UpdateFoodItem(int id, [FromForm] FoodItemUpdateDto dto)
         {
+            var image = dto.Image;
             if (string.IsNullOrWhiteSpace(dto.FoodName))
                 return BadRequest("FoodName is required.");
 
@@ -143,6 +149,7 @@ namespace Hotel.Controllers
 
             // Update fields
             food.FoodName = dto.FoodName.Trim();
+            food.Category = dto.Category?.Trim() ?? "General";
             food.Price = dto.Price;
             food.IsAvailable = dto.IsAvailable;
             if (imageUrl != null) food.ImageUrl = imageUrl;

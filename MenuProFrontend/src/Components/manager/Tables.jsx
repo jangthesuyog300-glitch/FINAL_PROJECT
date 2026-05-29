@@ -67,7 +67,7 @@ export default function Tables() {
             <p>Capacity: {t.capacity}</p>
             <p>Section: {t.section || "N/A"}</p>
             <p>Location: {t.location || "N/A"}</p>
-            <p>Status: <b>{t.status}</b></p>
+            {/* <p>Status: <b>{t.status}</b></p> */}
             <button className="delete-btn" onClick={() => handleDelete(t.id)}>Delete</button>
           </div>
         ))}
@@ -83,7 +83,7 @@ export default function Tables() {
             </div>
             <div className="form-group">
               <label>Capacity:</label>
-              <input type="number" value={newTable.capacity} onChange={e => setNewTable({ ...newTable, capacity: Number(e.target.value) })} />
+              <input type="number" value={newTable.capacity} onChange={e => setNewTable({ ...newTable, capacity: e.target.value })} />
             </div>
             <div className="form-group">
               <label>Section (Optional):</label>

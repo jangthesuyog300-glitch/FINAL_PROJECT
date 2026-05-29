@@ -17,26 +17,53 @@ namespace Hotel.Controllers
         // ✅ Manager/Admin can add tables
         [Authorize(Roles = "Manager,Admin")]
         [HttpPost]
-        public async Task<IActionResult> Add([FromBody] Table table)
+        public async Task<IActionResult> Add([FromBody] TableCreateDto dto)
         {
             // If manager, ensure they only add to their restaurant
             if (User.IsInRole("Manager"))
             {
-                var restaurantIdClaim = User.Claims.FirstOrDefault(c => c.Type == "RestaurantId")?.Value;
-                if (restaurantIdClaim == null || int.Parse(restaurantIdClaim) != table.RestaurantId)
-                    return Forbid("Managers can only add tables to their own restaurant.");
+                // Check multiple possible claim types for RestaurantId
+                var restaurantIdClaim = User.Claims.FirstOrDefault(c => 
+                    c.Type == "RestaurantId" || 
+                    c.Type == "restaurantId" || 
+                    c.Type == "id")?.Value;
+
+                if (restaurantIdClaim == null || !int.TryParse(restaurantIdClaim, out int tokenRestId) || tokenRestId != dto.RestaurantId)
+                {
+                    return StatusCode(403, $"Forbidden: Manager restaurant mismatch. Token ID: {restaurantIdClaim}, DTO ID: {dto.RestaurantId}");
+                }
             }
 
-            _context.Tables.Add(table);
-            await _context.SaveChangesAsync();
-            return Ok(table);
+            if (string.IsNullOrWhiteSpace(dto.TableNumber))
+                return BadRequest("Table number is required.");
+
+            var table = new Table
+            {
+                RestaurantId = dto.RestaurantId,
+                TableNumber = dto.TableNumber,
+                Capacity = dto.Capacity,
+                Section = dto.Section,
+                Location = dto.Location,
+                Status = "Available"
+            };
+
+            try 
+            {
+                _context.Tables.Add(table);
+                await _context.SaveChangesAsync();
+                return Ok(table);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [Authorize(Roles = "Manager,Admin")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Table table)
+        public async Task<IActionResult> Update(int id, [FromBody] TableUpdateDto dto)
         {
-            if (id != table.TableId) return BadRequest("ID mismatch");
+            if (id != dto.TableId) return BadRequest("ID mismatch");
 
             var existing = await _context.Tables.FindAsync(id);
             if (existing == null) return NotFound();
@@ -44,19 +71,32 @@ namespace Hotel.Controllers
             // Manager check
             if (User.IsInRole("Manager"))
             {
-                var restaurantIdClaim = User.Claims.FirstOrDefault(c => c.Type == "RestaurantId")?.Value;
-                if (restaurantIdClaim == null || int.Parse(restaurantIdClaim) != existing.RestaurantId)
-                    return Forbid();
+                var restaurantIdClaim = User.Claims.FirstOrDefault(c => 
+                    c.Type == "RestaurantId" || 
+                    c.Type == "restaurantId" || 
+                    c.Type == "id")?.Value;
+
+                if (restaurantIdClaim == null || !int.TryParse(restaurantIdClaim, out int tokenRestId) || tokenRestId != existing.RestaurantId)
+                {
+                    return StatusCode(403, "Forbidden: Manager restaurant mismatch.");
+                }
             }
 
-            existing.TableNumber = table.TableNumber;
-            existing.Capacity = table.Capacity;
-            existing.Status = table.Status;
-            existing.Section = table.Section;
-            existing.Location = table.Location;
+            existing.TableNumber = dto.TableNumber;
+            existing.Capacity = dto.Capacity;
+            existing.Status = dto.Status;
+            existing.Section = dto.Section;
+            existing.Location = dto.Location;
 
-            await _context.SaveChangesAsync();
-            return Ok(existing);
+            try 
+            {
+                await _context.SaveChangesAsync();
+                return Ok(existing);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [Authorize(Roles = "Manager,Admin")]
@@ -69,9 +109,16 @@ namespace Hotel.Controllers
             // Manager check
             if (User.IsInRole("Manager"))
             {
-                var restaurantIdClaim = User.Claims.FirstOrDefault(c => c.Type == "RestaurantId")?.Value;
-                if (restaurantIdClaim == null || int.Parse(restaurantIdClaim) != table.RestaurantId)
-                    return Forbid();
+                // Robust claim lookup
+                var restaurantIdClaim = User.Claims.FirstOrDefault(c => 
+                    c.Type == "RestaurantId" || 
+                    c.Type == "restaurantId" || 
+                    c.Type == "id")?.Value;
+
+                if (restaurantIdClaim == null || !int.TryParse(restaurantIdClaim, out int tokenRestId) || tokenRestId != table.RestaurantId)
+                {
+                    return StatusCode(403, "Forbidden: Manager restaurant mismatch.");
+                }
             }
 
             // Prevent delete if future bookings exist
@@ -96,7 +143,7 @@ namespace Hotel.Controllers
                 {
                     id = t.TableId,
                     tableNumber = t.TableNumber,
-                    seats = t.Capacity,
+                    capacity = t.Capacity,
                     status = t.Status,
                     section = t.Section,
                     location = t.Location

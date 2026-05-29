@@ -534,6 +534,9 @@
                   "FoodName": {
                     "type": "string"
                   },
+                  "Category": {
+                    "type": "string"
+                  },
                   "Price": {
                     "type": "number",
                     "format": "double"
@@ -544,7 +547,7 @@
                   "ImageUrl": {
                     "type": "string"
                   },
-                  "image": {
+                  "Image": {
                     "type": "string",
                     "format": "binary"
                   }
@@ -557,6 +560,9 @@
                 "FoodName": {
                   "style": "form"
                 },
+                "Category": {
+                  "style": "form"
+                },
                 "Price": {
                   "style": "form"
                 },
@@ -566,7 +572,7 @@
                 "ImageUrl": {
                   "style": "form"
                 },
-                "image": {
+                "Image": {
                   "style": "form"
                 }
               }
@@ -660,6 +666,9 @@
                   "FoodName": {
                     "type": "string"
                   },
+                  "Category": {
+                    "type": "string"
+                  },
                   "Price": {
                     "type": "number",
                     "format": "double"
@@ -670,7 +679,7 @@
                   "ImageUrl": {
                     "type": "string"
                   },
-                  "image": {
+                  "Image": {
                     "type": "string",
                     "format": "binary"
                   }
@@ -678,6 +687,9 @@
               },
               "encoding": {
                 "FoodName": {
+                  "style": "form"
+                },
+                "Category": {
                   "style": "form"
                 },
                 "Price": {
@@ -689,7 +701,7 @@
                 "ImageUrl": {
                   "style": "form"
                 },
-                "image": {
+                "Image": {
                   "style": "form"
                 }
               }
@@ -1117,7 +1129,7 @@
                   "ImagePath": {
                     "type": "string"
                   },
-                  "image": {
+                  "Image": {
                     "type": "string",
                     "format": "binary"
                   }
@@ -1160,7 +1172,7 @@
                 "ImagePath": {
                   "style": "form"
                 },
-                "image": {
+                "Image": {
                   "style": "form"
                 }
               }
@@ -1318,17 +1330,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Table"
+                "$ref": "#/components/schemas/TableCreateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Table"
+                "$ref": "#/components/schemas/TableCreateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Table"
+                "$ref": "#/components/schemas/TableCreateDto"
               }
             }
           }
@@ -1360,17 +1372,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Table"
+                "$ref": "#/components/schemas/TableUpdateDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Table"
+                "$ref": "#/components/schemas/TableUpdateDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Table"
+                "$ref": "#/components/schemas/TableUpdateDto"
               }
             }
           }
@@ -1752,6 +1764,10 @@
             "format": "int32"
           },
           "foodName": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
             "type": "string",
             "nullable": true
           },
@@ -2241,6 +2257,62 @@
             "items": {
               "$ref": "#/components/schemas/Booking"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TableCreateDto": {
+        "type": "object",
+        "properties": {
+          "restaurantId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tableNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "capacity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "section": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TableUpdateDto": {
+        "type": "object",
+        "properties": {
+          "tableId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tableNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "capacity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "section": {
+            "type": "string",
+            "nullable": true
+          },
+          "location": {
+            "type": "string",
             "nullable": true
           }
         },

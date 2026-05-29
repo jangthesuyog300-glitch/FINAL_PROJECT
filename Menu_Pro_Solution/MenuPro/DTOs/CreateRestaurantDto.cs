@@ -14,5 +14,6 @@
         public string? CloseTime { get; set; }
         public string? Phone { get; set; }
         public string? ImagePath { get; set; } // optional
+        public Microsoft.AspNetCore.Http.IFormFile? Image { get; set; }
     }
 }

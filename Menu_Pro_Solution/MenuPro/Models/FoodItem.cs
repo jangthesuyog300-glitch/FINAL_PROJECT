@@ -1,4 +1,4 @@
-﻿namespace Hotel.Models
+namespace Hotel.Models
 {
     public class FoodItem
     {
@@ -6,6 +6,7 @@
 
         public int RestaurantId { get; set; }
         public string FoodName { get; set; } = null!;
+        public string Category { get; set; } = string.Empty;
         public decimal Price { get; set; }
         public bool IsAvailable { get; set; } = true;
         public string? ImageUrl { get; set; }

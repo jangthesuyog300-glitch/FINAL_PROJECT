@@ -3,12 +3,33 @@
   "WorkspaceRootPath": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\menupro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\menupro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Suyog1/True/SqlTable/dbo.Restaurants.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/MenuProV2_DB/True/SqlTable/dbo.Restaurants.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/IET1/True/SqlTable/dbo.Restaurants.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\wwwroot\\images\\restaurants\\620daf58-638d-4215-b410-d0a78294b59f.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\wwwroot\\images\\restaurants\\620daf58-638d-4215-b410-d0a78294b59f.jpeg||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +66,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\models\\bookingfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\models\\bookingfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\controllers\\fooditemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +110,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|solutionrelative:menupro\\controllers\\tablescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C2FC8AD-1F5E-45EC-BD29-D28A516E7BA6}|MenuPro\\MenuPro.csproj|c:\\users\\victus\\desktop\\git new\\menu_pro_solution\\menupro\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,11 +171,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MenuPro.csproj",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\MenuPro.csproj",
               "RelativeDocumentMoniker": "MenuPro\\MenuPro.csproj",
@@ -175,7 +188,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "dbo.Restaurants.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/MenuProV2_DB/True/SqlTable/dbo.Restaurants.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/MenuProV2_DB/True/SqlTable/dbo.Restaurants.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-08T09:31:00.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HistoryController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\HistoryController.cs",
               "RelativeDocumentMoniker": "MenuPro\\Controllers\\HistoryController.cs",
@@ -187,19 +209,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\appsettings.json",
               "RelativeDocumentMoniker": "MenuPro\\appsettings.json",
               "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\appsettings.json",
               "RelativeToolTip": "MenuPro\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-27T12:14:53.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "ManagerSummaryController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\ManagerSummaryController.cs",
               "RelativeDocumentMoniker": "MenuPro\\Controllers\\ManagerSummaryController.cs",
@@ -211,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "MenuPro\\Controllers\\AdminController.cs",
@@ -223,127 +245,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookingFoodsController.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\BookingFoodsController.cs",
-              "RelativeDocumentMoniker": "MenuPro\\Controllers\\BookingFoodsController.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\BookingFoodsController.cs",
-              "RelativeToolTip": "MenuPro\\Controllers\\BookingFoodsController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAQwGsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "TablesController.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\TablesController.cs",
+              "RelativeDocumentMoniker": "MenuPro\\Controllers\\TablesController.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\TablesController.cs",
+              "RelativeToolTip": "MenuPro\\Controllers\\TablesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwB4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T12:46:24.237Z"
+              "WhenOpened": "2026-01-27T12:45:40.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookingFoodCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\BookingFoodCreateDto.cs",
-              "RelativeDocumentMoniker": "MenuPro\\DTOs\\BookingFoodCreateDto.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\BookingFoodCreateDto.cs",
-              "RelativeToolTip": "MenuPro\\DTOs\\BookingFoodCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T18:49:31.598Z"
+              "DocumentIndex": 5,
+              "Title": "dbo.Restaurants.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/IET1/True/SqlTable/dbo.Restaurants.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/IET1/True/SqlTable/dbo.Restaurants.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-08T09:29:39.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Program.cs",
-              "RelativeDocumentMoniker": "MenuPro\\Program.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Program.cs",
-              "RelativeToolTip": "MenuPro\\Program.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAUwHMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T12:41:13.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BookingFoodUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\BookingFoodUpdateDto.cs",
-              "RelativeDocumentMoniker": "MenuPro\\DTOs\\BookingFoodUpdateDto.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\BookingFoodUpdateDto.cs",
-              "RelativeToolTip": "MenuPro\\DTOs\\BookingFoodUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T18:57:22.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CreateRestaurantDto.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\CreateRestaurantDto.cs",
-              "RelativeDocumentMoniker": "MenuPro\\DTOs\\CreateRestaurantDto.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\CreateRestaurantDto.cs",
-              "RelativeToolTip": "MenuPro\\DTOs\\CreateRestaurantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T08:06:48.817Z"
+              "DocumentIndex": 3,
+              "Title": "dbo.Restaurants.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Suyog1/True/SqlTable/dbo.Restaurants.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/Suyog1/True/SqlTable/dbo.Restaurants.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-08T09:31:13.741Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "MenuPro\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "MenuPro\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwL4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T12:44:46.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\DbContext.cs",
-              "RelativeDocumentMoniker": "MenuPro\\Models\\DbContext.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\DbContext.cs",
-              "RelativeToolTip": "MenuPro\\Models\\DbContext.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T12:44:25.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BookingFood.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\BookingFood.cs",
-              "RelativeDocumentMoniker": "MenuPro\\Models\\BookingFood.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\BookingFood.cs",
-              "RelativeToolTip": "MenuPro\\Models\\BookingFood.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA+wA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T12:43:37.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "MenuPro\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "MenuPro\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T12:46:49.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FoodItem.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\FoodItem.cs",
-              "RelativeDocumentMoniker": "MenuPro\\Models\\FoodItem.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\FoodItem.cs",
-              "RelativeToolTip": "MenuPro\\Models\\FoodItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T12:43:47.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "FoodItemsController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\FoodItemsController.cs",
               "RelativeDocumentMoniker": "MenuPro\\Controllers\\FoodItemsController.cs",
@@ -355,7 +288,138 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "620daf58-638d-4215-b410-d0a78294b59f.jpeg",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\wwwroot\\images\\restaurants\\620daf58-638d-4215-b410-d0a78294b59f.jpeg",
+              "RelativeDocumentMoniker": "MenuPro\\wwwroot\\images\\restaurants\\620daf58-638d-4215-b410-d0a78294b59f.jpeg",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\wwwroot\\images\\restaurants\\620daf58-638d-4215-b410-d0a78294b59f.jpeg",
+              "RelativeToolTip": "MenuPro\\wwwroot\\images\\restaurants\\620daf58-638d-4215-b410-d0a78294b59f.jpeg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-01T09:04:10.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookingFoodsController.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\BookingFoodsController.cs",
+              "RelativeDocumentMoniker": "MenuPro\\Controllers\\BookingFoodsController.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\BookingFoodsController.cs",
+              "RelativeToolTip": "MenuPro\\Controllers\\BookingFoodsController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwGsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:46:24.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BookingFoodCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\BookingFoodCreateDto.cs",
+              "RelativeDocumentMoniker": "MenuPro\\DTOs\\BookingFoodCreateDto.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\BookingFoodCreateDto.cs",
+              "RelativeToolTip": "MenuPro\\DTOs\\BookingFoodCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T18:49:31.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Program.cs",
+              "RelativeDocumentMoniker": "MenuPro\\Program.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Program.cs",
+              "RelativeToolTip": "MenuPro\\Program.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAUwHMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:41:13.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingFoodUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\BookingFoodUpdateDto.cs",
+              "RelativeDocumentMoniker": "MenuPro\\DTOs\\BookingFoodUpdateDto.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\BookingFoodUpdateDto.cs",
+              "RelativeToolTip": "MenuPro\\DTOs\\BookingFoodUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T18:57:22.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateRestaurantDto.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\CreateRestaurantDto.cs",
+              "RelativeDocumentMoniker": "MenuPro\\DTOs\\CreateRestaurantDto.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\CreateRestaurantDto.cs",
+              "RelativeToolTip": "MenuPro\\DTOs\\CreateRestaurantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T08:06:48.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MenuPro\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MenuPro\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwL4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:44:46.416Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\DbContext.cs",
+              "RelativeDocumentMoniker": "MenuPro\\Models\\DbContext.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\DbContext.cs",
+              "RelativeToolTip": "MenuPro\\Models\\DbContext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:44:25.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingFood.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\BookingFood.cs",
+              "RelativeDocumentMoniker": "MenuPro\\Models\\BookingFood.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\BookingFood.cs",
+              "RelativeToolTip": "MenuPro\\Models\\BookingFood.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA+wA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:43:37.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MenuPro\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "MenuPro\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:46:49.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\FoodItem.cs",
+              "RelativeDocumentMoniker": "MenuPro\\Models\\FoodItem.cs",
+              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\FoodItem.cs",
+              "RelativeToolTip": "MenuPro\\Models\\FoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:43:47.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "CreateManagerDto.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\CreateManagerDto.cs",
               "RelativeDocumentMoniker": "MenuPro\\DTOs\\CreateManagerDto.cs",
@@ -367,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "20260128080832_Restaurants.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Migrations\\20260128080832_Restaurants.cs",
               "RelativeDocumentMoniker": "MenuPro\\Migrations\\20260128080832_Restaurants.cs",
@@ -379,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "SQLQuery12.sql",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\SQLQuery12.sql",
               "RelativeDocumentMoniker": "SQLQuery12.sql",
@@ -390,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "20260128080133_Restaurant.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Migrations\\20260128080133_Restaurant.cs",
               "RelativeDocumentMoniker": "MenuPro\\Migrations\\20260128080133_Restaurant.cs",
@@ -402,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "SQLQuery2.sql",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\SQLQuery2.sql",
               "RelativeDocumentMoniker": "SQLQuery2.sql",
@@ -413,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "RestaurantsController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\RestaurantsController.cs",
               "RelativeDocumentMoniker": "MenuPro\\Controllers\\RestaurantsController.cs",
@@ -425,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Restaurant.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\Restaurant.cs",
               "RelativeDocumentMoniker": "MenuPro\\Models\\Restaurant.cs",
@@ -437,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\User.cs",
               "RelativeDocumentMoniker": "MenuPro\\Models\\User.cs",
@@ -449,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "PaymentsController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\PaymentsController.cs",
               "RelativeDocumentMoniker": "MenuPro\\Controllers\\PaymentsController.cs",
@@ -461,19 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TablesController.cs",
-              "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\TablesController.cs",
-              "RelativeDocumentMoniker": "MenuPro\\Controllers\\TablesController.cs",
-              "ToolTip": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\TablesController.cs",
-              "RelativeToolTip": "MenuPro\\Controllers\\TablesController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwB4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T12:45:40.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "BookingsController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\BookingsController.cs",
               "RelativeDocumentMoniker": "MenuPro\\Controllers\\BookingsController.cs",
@@ -485,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "20260127152153_InitialHotelSchema.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Migrations\\20260127152153_InitialHotelSchema.cs",
               "RelativeDocumentMoniker": "MenuPro\\Migrations\\20260127152153_InitialHotelSchema.cs",
@@ -497,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "TimeSlotsController.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Controllers\\TimeSlotsController.cs",
               "RelativeDocumentMoniker": "MenuPro\\Controllers\\TimeSlotsController.cs",
@@ -509,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "SQLQuery3.sql",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\SQLQuery3.sql",
               "RelativeDocumentMoniker": "SQLQuery3.sql",
@@ -520,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "SQLQuery1.sql",
@@ -531,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "MenuPro\\DTOs\\RegisterDto.cs",
@@ -543,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "MenuPro\\Models\\Payment.cs",
@@ -555,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Booking.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\Booking.cs",
               "RelativeDocumentMoniker": "MenuPro\\Models\\Booking.cs",
@@ -567,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "TimeSlot.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\TimeSlot.cs",
               "RelativeDocumentMoniker": "MenuPro\\Models\\TimeSlot.cs",
@@ -579,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Table.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\Models\\Table.cs",
               "RelativeDocumentMoniker": "MenuPro\\Models\\Table.cs",
@@ -591,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\VICTUS\\Desktop\\git New\\Menu_Pro_Solution\\MenuPro\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "MenuPro\\DTOs\\LoginDto.cs",

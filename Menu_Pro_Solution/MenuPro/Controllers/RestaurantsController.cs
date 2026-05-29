@@ -150,8 +150,9 @@ namespace Hotel.Controllers
         // =========================================================
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> Create([FromForm] CreateRestaurantDto dto, IFormFile? image)
+        public async Task<IActionResult> Create([FromForm] CreateRestaurantDto dto)
         {
+            var image = dto.Image;
             string? imageUrl = null;
 
             if (image != null)
